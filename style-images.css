@@ -132,14 +132,21 @@ body {
 }
 
 #a2 img {
-  height: 50px;
-  width: 50px;
-  border-radius: 15px;
-  margin-top: 400px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 #a2 {
-
+  display: inline-block;
+  width: 85%;
+  height: 85%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  vertical-align: middle;
 }
 
 .section3 div {
