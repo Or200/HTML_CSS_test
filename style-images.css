@@ -1,0 +1,147 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 218, 233);
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-nav ul {
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #444;
+  font-size: 18px;
+}
+
+.logo img {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  height: 30px;
+  width: 30px;
+}
+
+.chat-gpt {
+  position: absolute;
+  left: 60px;
+  top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.help img {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  height: 30px;
+  width: 30px;
+}
+
+.singin {
+  position: absolute;
+  right: 60px;
+  top: 5px;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 35px;
+  font-weight: bold;
+}
+.login {
+  position: absolute;
+  right: 230px;
+  top: 5px;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 35px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+.container-main {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.section2 div {
+  display: inline;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  right: 22%;
+}
+
+.arrow div {
+  font-weight: bold;
+  border: 2px solid grey;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.view-image {
+  position: absolute;
+  padding: 5px;
+  gap: 5px;
+  left: 470px;
+  right: 300px;
+  margin-top: 70px;
+}
+
+.view-image img {
+  height: 250px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+#a1 {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#a2 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  margin-top: 400px;
+}
+
+#a2 {
+
+}
+
+.section3 div {
+  display: inline;
+}
