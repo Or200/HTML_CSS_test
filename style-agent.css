@@ -1,0 +1,83 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-nav ul {
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #444;
+  font-size: 18px;
+}
+
+.logo img {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  height: 30px;
+  width: 30px;
+}
+
+.chat-gpt {
+  position: absolute;
+  left: 60px;
+  top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.help img {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  height: 30px;
+  width: 30px;
+}
+
+.singin {
+  position: absolute;
+  right: 60px;
+  top: 5px;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 35px;
+  font-weight: bold;
+}
+.login {
+  position: absolute;
+  right: 230px;
+  top: 5px;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 35px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
